@@ -1,0 +1,162 @@
+body {
+  font-size: 16px;
+  font-family: 'Quicksand'sans-serif;
+  background-color: #f3eada
+}
+
+body a {
+  color: #318594;
+  text-decoration: none;
+  font-weight: bold
+}
+
+header {
+  background: url('/images/header-bg.jpg') top center;
+  width: 100%;
+  height: 280px;
+  background-size: cover;
+  position: relative;
+  color: #f3eada;
+}
+
+header nav {
+  position: absolute;
+  background-color: rgba(243, 234, 218, 0.8);
+  width: 320px;
+  left: 50%;
+  margin-left: -160px;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 2em
+}
+
+header nav ul li a {
+  color: #3c3c3c;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+  color: #318594;
+}
+
+header h1 {
+  height: 201px;
+  width: 300px;
+  background: url('/images/circle.png') top center;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 80px;
+  text-align: center;
+  padding-top: 100px;
+  font-weight: 700;
+  font-size: 1.75em
+}
+
+header h2 {
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  top: 95px;
+  text-align: center;
+  padding: 180px 50px 0 50px;
+  font-weight: 100;
+  font-size: 1.1em
+}
+
+.first {
+  max-width: 800px;
+  margin: 120px auto 0 auto;
+}
+
+.first #intro {
+  width: 640px;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+
+.first #intro p {
+  padding-right: 40px;
+}
+
+.second {
+  background: url('/images/pattern.png');
+}
+
+.second .center {
+  width: 640px;
+  margin: 0 auto
+}
+
+.second #photo {
+  float: left;
+  margin-top: 40px
+}
+
+.second #events {
+  width: 240px;
+  padding: 40px 0;
+  float: right;
+  color: #f3eada
+}
+
+.second #events h1 {
+  font-size: 1.2em
+}
+
+.second #events ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none
+}
+
+.second #events ul ul {
+  margin-bottom: 0.75em
+}
+
+.second #events ul ul li.date {
+  font-weight: 400
+}
+
+.second #events ul ul li a {
+  font-weight: 300;
+  font-size: 0.8em
+}
+
+.second #events a {
+  font-weight: 700;
+  color: inherit
+}
+
+.second #events a:hover {
+  color: #c7b492
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #282726;
+  color: #f3eada;
+  font-weight: 300
+}
+
+footer a {
+  float: right;
+  margin-right: 2em;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
